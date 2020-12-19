@@ -1,4 +1,3 @@
-import './Cards.css';
 import winter from './img/winter.jpg';
 import Card from './Card';
 

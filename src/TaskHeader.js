@@ -1,6 +1,4 @@
 import PropTypes from 'prop-types';
-import './TaskHeader.css';
-
 
 function TaskHeader(props) {
   const { title } = props; 

@@ -14,3 +14,25 @@
 body {
   background-color: white;
 }
+
+.TaskHeader {
+  font-size: 48px;
+  padding: 0.5em;
+  background-color: darkgray;
+}
+
+.TaskHeader-title {
+  font-size: inherit;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.card {
+  margin: 10px;
+} 

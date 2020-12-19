@@ -1,4 +1,5 @@
 import React from 'react';
+import './bootstrap.css';
 import './App.css';
 import TaskHeader from './TaskHeader';
 import Cards from './task1/Cards';

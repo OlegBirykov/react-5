@@ -9,7 +9,7 @@ import TopSection from './components/TopSection';
  */
 
 function Yandex(props) {
-  const { top, search, trailer, bottom } = props.data;
+  const { top } = props.data;
 
   return (
     <div className="Yandex">

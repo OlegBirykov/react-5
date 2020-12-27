@@ -1,4 +1,4 @@
-﻿import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 /**
  * Верхнее меню новостей, второй пункт точно должен быть настраиваемым

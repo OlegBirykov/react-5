@@ -3,7 +3,8 @@ import './bootstrap.css';
 import './App.css';
 import TaskHeader from './TaskHeader';
 import Cards from './task1/Cards';
-import Decomposition from './task2/Decomposition';
+import Yandex from './task2/Yandex';
+import data from './task2/data';
 
 function App() {
   return (<React.Fragment>
@@ -13,7 +14,7 @@ function App() {
     </div>
     <div className="task-2">
       <TaskHeader title="Задача 2" />
-      <Decomposition /> 
+      <Yandex data={data} /> 
     </div>
   </React.Fragment>);
 }

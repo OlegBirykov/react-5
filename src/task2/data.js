@@ -56,29 +56,60 @@ const data = {
     example: 'фаза луны сегодня'
   },
   trailer: {
-    img: '',
-    link: ''
+    img: 'movie.png',
+    link: '.'
   },
   bottom: [
     {
-      title: '',
-      content: ''
+      title: 'Погода',
+      link: '.',
+      content: (
+        <div>
+          <img src={process.env.PUBLIC_URL + '/images/1.jpg'} width="50px" alt="no icon" />
+          <p>+17</p>
+          <div>
+            <p>Утром +17,</p>
+            <p>днём +20</p>
+          </div>
+        </div>
+      )
     },
     {
-      title: '',
-      content: ''
+      title: 'Посещаемое',
+      link: '.',
+      content: (
+        <div>
+          <p>Здесь свой контент</p>
+        </div>
+      )
     },
     {
-      title: '',
-      content: ''
+      title: 'Карта Германии',
+      link: '.',
+      content: (
+        <div>
+          <p>И здесь свой контент</p>
+        </div>
+      )
     },
     {
-      title: '',
-      content: ''
+      title: 'Телепрограмма',
+      link: '.',
+      icon: '1.jpg',
+      content: (
+        <div>
+          <p>И здесь...</p>
+        </div>
+      )
     },
     {
-      title: '',
-      content: ''
+      title: 'Эфир',
+      link: '.',
+      content: (
+        <div>
+          <p>И здесь тоже</p>
+        </div>
+      )
     }
   ]
 }
